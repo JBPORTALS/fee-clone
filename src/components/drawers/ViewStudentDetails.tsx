@@ -569,7 +569,7 @@ export default function ViewStudentsDetails({
                 >
                   Update Payment
                 </Button>
-                <Button
+                {/*<Button
                   isLoading={isDeleting}
                   onClick={() => deleteStudent()}
                   w={"full"}
@@ -577,7 +577,7 @@ export default function ViewStudentsDetails({
                   leftIcon={<AiOutlineUserDelete />}
                 >
                   Remove
-                </Button>
+            </Button>*/}
               </>
             )}
           </VStack>
